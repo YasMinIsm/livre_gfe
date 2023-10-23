@@ -89,3 +89,21 @@ a {
 .span{
 	font-weight: bold;
 }
+.animated-text {
+    font-family: Lora;
+    overflow: hidden;
+    height: 3.1em;
+    font-size: 9em;
+    word-wrap: break-word;
+    white-space: nowrap;
+    animation: typing 8s steps(200) forwards;
+}
+@keyframes typing {
+	from { 
+	  width: 0;
+	}
+  
+	to { 
+	  width: 48ch;
+	}
+  }
